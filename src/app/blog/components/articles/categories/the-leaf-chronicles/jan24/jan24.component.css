@@ -1,0 +1,10 @@
+.page{
+    margin: 50px;
+    margin-bottom: 60px;
+}
+.header, .subheader{
+    text-align: center;
+}
+.button{
+    text-align: left;
+}
