@@ -1,0 +1,50 @@
+<html>
+
+<body>
+    <!-- <header>
+            <div class="container">
+                <div class="nav">
+                    <h1>Checkride Prep</h1>
+                     <div>
+                        <button (click)="showCreateCardBox()">New Card</button>
+                        <button (onclick)="deleteFlashcards()">Delete Cards</button>
+                    </div> 
+                </div>
+            </div>
+        </header> -->
+
+    <!-- create new card -->
+    <!-- <div class="container">
+            <div class="create-box">
+                <h2 style="text-align: center; color: black;">Create Flashcard</h2>
+                <label for="question">Question</label>
+                <textarea id="question"></textarea>
+                <br>
+                <label for="answer">Answer</label>
+                <textarea id="answer"></textarea>
+                <div>
+                    <button (click)="addFlashcard()">Save</button>
+                    <button (click)="hideCreateBox()">Close</button>
+                </div>
+            </div>
+            <div class="flashcards"></div>
+        </div> -->
+    <div class="notecards">
+        <ul class="card-list" *ngFor="let card of flashcards">
+            <li class="card">
+                <div class="content">
+                    <div class="front">
+                        <p class="subtitle">{{card.question}}</p>
+                    </div>
+
+                    <div class="back">
+                        <p class="description">{{card.answer}}</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
