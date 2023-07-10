@@ -59,6 +59,7 @@ jobs:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: ${{ env.AWS_REGION }}
+        role-to-assume: arn:aws:ecs:us-east-2:874122833305:service/LaynsLeafCluster/LaynsLeafService
 
     - name: Login to Amazon ECR
       id: login-ecr
