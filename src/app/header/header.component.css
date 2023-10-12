@@ -1,21 +1,31 @@
-/* .navbar {
-    background-color:rgb(255, 246, 234);
-} */
-
-.navbar-brand{
-    padding-left: 15px;
-    font-size: xx-large;
-    font-family: fantasy;
-    color: #d4a373;
+.nav-link{
+    color:black;
 }
 
-.nav-link{
-    color:white;
+.nav-item{
+    padding-top: 30px;
+    padding-left: 30px; 
+    padding-right: 30px;
+}
+
+.group{
+    width: 60%;
+}
+
+.main-header{
+    text-align: center;
+    width:100%;
+    align: center;
+}
+
+.layns-leaf-logo{
+    max-width: 200px;
+    max-height: auto;
 }
 
 .main-header{
     height: 140px;
-    background-image: url('/assets/photos/layns-leaf-banner-smaller.png');
+    /**background-image: url('/assets/photos/layns-leaf-banner-smaller.png'); **/
     background-attachment: scroll;
     background-size: 100%;
     background-repeat: no-repeat;
