@@ -1,15 +1,14 @@
 # www.laynsleaf.com
-My personal website - a dabble of all things I enjoy;
-* Aviation
+My personal website - a dabble of all things I enjoy. 
+
+Things you may see on there include:
+* Aviation & travel blogs/galleries
 * Personal Coding Projects (Animations, Game Dev, This Website)
-* Home Improvement & Gardening
-* Art & Crafting
-* Travel
-* My Random Philosophies
+* Shop my designs
 
 Angular Tech Stack:
 * HTML
 * Typescript
 * CSS
 
-note: the website is currently deployed on GoDaddy with a given template, but will be replaced by this in the future *
+note: Website is officially deployed!! It's hosted using Hostinger (see why I chose this one here: https://github.com/ayyjayy2/laynsleaf/wiki/4.-Web-Hosting ). Although deployed, it is well under construction. *
